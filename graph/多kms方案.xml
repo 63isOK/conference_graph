@@ -1,6 +1,6 @@
-<mxfile modified="2019-11-01T02:12:14.632Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="_kDq6bUp4XFhrzGQxQkG" version="12.1.9" type="github" pages="4">
+<mxfile modified="2019-11-01T03:05:23.860Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="b1tUfjl19Zgg89DbEtcX" version="12.1.9" type="github" pages="4">
   <diagram id="TqIuw27xwV6HfCfeeaMq" name="ÃÂ¤ÃÂ¼ÃÂ ÃÂ§ÃÂ»ÃÂÃÂ¦ÃÂµÃÂÃÂ¥ÃÂªÃÂÃÂ¤ÃÂ½ÃÂÃÂ¥ÃÂ°ÃÂ±ÃÂ¨ÃÂ¿ÃÂÃÂ¦ÃÂÃÂ¥ÃÂ¥ÃÂÃÂ¥ÃÂ¦ÃÂÃÂ¹ÃÂ¦ÃÂ¡ÃÂ">
-    <mxGraphModel dx="-278" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-278" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="j5JTV_QcZyj8_nwalBqB-0"/>
         <mxCell id="j5JTV_QcZyj8_nwalBqB-1" parent="j5JTV_QcZyj8_nwalBqB-0"/>
@@ -1109,49 +1109,49 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lLLX0a3J1243LySMtJLo" name="refactoring">
-    <mxGraphModel dx="1185" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZCbKlFLyMs-FRZJkyF-s-0"/>
         <mxCell id="ZCbKlFLyMs-FRZJkyF-s-1" parent="ZCbKlFLyMs-FRZJkyF-s-0"/>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-2" value="INT_ MediaProcess" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-2" value="INT_ MediaProcess" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="40" y="80" width="300" height="140" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-3" target="ZCbKlFLyMs-FRZJkyF-s-2">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-3" target="ZCbKlFLyMs-FRZJkyF-s-2" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-3" value="总线 | 客户端直连" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-3" value="总线 | 客户端直连" style="rounded=0;whiteSpace=wrap;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="130" y="10" width="120" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-5" target="ZCbKlFLyMs-FRZJkyF-s-6">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-5" target="ZCbKlFLyMs-FRZJkyF-s-6" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-5" target="ZCbKlFLyMs-FRZJkyF-s-7">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-5" target="ZCbKlFLyMs-FRZJkyF-s-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="260"/>
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-5" value="客户端推拉流逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-5" value="客户端推拉流逻辑" style="rounded=0;whiteSpace=wrap;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="70" y="140" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-6" target="ZCbKlFLyMs-FRZJkyF-s-8">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-6" target="ZCbKlFLyMs-FRZJkyF-s-8" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-6" value="kms推拉流模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-6" value="kms推拉流模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="70" y="300" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-7" target="ZCbKlFLyMs-FRZJkyF-s-6">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-7" target="ZCbKlFLyMs-FRZJkyF-s-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="250" y="320"/>
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-7" value="中继模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-7" value="中继模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="200" y="240" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-8" target="ZCbKlFLyMs-FRZJkyF-s-13">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-8" target="ZCbKlFLyMs-FRZJkyF-s-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="410" as="targetPoint"/>
             <Array as="points">
@@ -1160,7 +1160,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-8" target="ZCbKlFLyMs-FRZJkyF-s-14">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-8" target="ZCbKlFLyMs-FRZJkyF-s-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="130" y="420"/>
@@ -1168,30 +1168,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-8" value="webrtc通信" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-8" value="webrtc通信" style="rounded=0;whiteSpace=wrap;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="70" y="370" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-13" value="kms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-13" value="kms" style="rounded=0;whiteSpace=wrap;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="70" y="440" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-14" value="kms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-14" value="kms" style="rounded=0;whiteSpace=wrap;html=1;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="200" y="440" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-17" value="INT_ MediaProcess" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-17" value="INT_ MediaProcess" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="560" y="40" width="120" height="430" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-17">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZCbKlFLyMs-FRZJkyF-s-17" vertex="1">
           <mxGeometry x="55" y="80" width="10" height="350" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-25" value="推拉流消息" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-24" parent="ZCbKlFLyMs-FRZJkyF-s-17">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-25" value="推拉流消息" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="ZCbKlFLyMs-FRZJkyF-s-17" target="ZCbKlFLyMs-FRZJkyF-s-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-60" y="80" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-17">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZCbKlFLyMs-FRZJkyF-s-17" vertex="1">
           <mxGeometry x="65" y="120" width="10" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-27" value="生成任务id" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-26" parent="ZCbKlFLyMs-FRZJkyF-s-17" source="ZCbKlFLyMs-FRZJkyF-s-24">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-27" value="生成任务id" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="ZCbKlFLyMs-FRZJkyF-s-17" source="ZCbKlFLyMs-FRZJkyF-s-24" target="ZCbKlFLyMs-FRZJkyF-s-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="100" as="sourcePoint"/>
             <Array as="points">
@@ -1200,10 +1200,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-17">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZCbKlFLyMs-FRZJkyF-s-17" vertex="1">
           <mxGeometry x="65" y="240" width="10" height="180" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-29" value="处理请求" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-28" parent="ZCbKlFLyMs-FRZJkyF-s-17" source="ZCbKlFLyMs-FRZJkyF-s-24">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-29" value="处理请求" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="ZCbKlFLyMs-FRZJkyF-s-17" source="ZCbKlFLyMs-FRZJkyF-s-24" target="ZCbKlFLyMs-FRZJkyF-s-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="220" as="sourcePoint"/>
             <Array as="points">
@@ -1212,82 +1212,85 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-21" value="策略" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-21" value="策略" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="720" y="40" width="120" height="270" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-21">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZCbKlFLyMs-FRZJkyF-s-21" vertex="1">
           <mxGeometry x="55" y="215" width="10" height="55" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-22" value="WEBRTC_MediaTrans" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-22" value="WEBRTC_MediaTrans" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="1040" y="40" width="120" height="400" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-22">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZCbKlFLyMs-FRZJkyF-s-22" vertex="1">
           <mxGeometry x="55" y="270" width="10" height="130" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-23" value="中继" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-23" value="中继" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="880" y="40" width="120" height="380" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-23">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZCbKlFLyMs-FRZJkyF-s-23" vertex="1">
           <mxGeometry x="55" y="250" width="10" height="130" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-30" value="推拉流逻辑" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-30" value="推拉流逻辑" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="1200" y="40" width="120" height="330" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-30">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZCbKlFLyMs-FRZJkyF-s-30" vertex="1">
           <mxGeometry x="55" y="250" width="10" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-31" value="kms通信" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-31" value="kms通信" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" vertex="1">
           <mxGeometry x="1360" y="40" width="120" height="370" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-31">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="ZCbKlFLyMs-FRZJkyF-s-31" vertex="1">
           <mxGeometry x="55" y="290" width="10" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-33" value="获取最优路径" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-32" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-33" value="获取最优路径" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="ZCbKlFLyMs-FRZJkyF-s-1" target="ZCbKlFLyMs-FRZJkyF-s-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="637" y="295" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-35" value="发送中继请求" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.055;exitY=0.277;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-34" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-28">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-35" value="发送中继请求" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.055;exitY=0.277;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-28" target="ZCbKlFLyMs-FRZJkyF-s-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="370" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-36" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.055;exitY=0.704;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="ZCbKlFLyMs-FRZJkyF-s-34" parent="ZCbKlFLyMs-FRZJkyF-s-1" target="ZCbKlFLyMs-FRZJkyF-s-28">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-36" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.055;exitY=0.704;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-34" target="ZCbKlFLyMs-FRZJkyF-s-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="390" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-38" value="kms到kms之间的传输" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.014;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-37" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-34">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-38" value="kms到kms之间的传输" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.014;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-34" target="ZCbKlFLyMs-FRZJkyF-s-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1025" y="290" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-39" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.221;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="ZCbKlFLyMs-FRZJkyF-s-37" parent="ZCbKlFLyMs-FRZJkyF-s-1" target="ZCbKlFLyMs-FRZJkyF-s-34">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-39" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.221;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-37" target="ZCbKlFLyMs-FRZJkyF-s-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1025" y="366" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-42" value="消息转换" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.067;exitY=0.331;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-41" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-37">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-42" value="消息转换" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.067;exitY=0.331;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-37" target="ZCbKlFLyMs-FRZJkyF-s-41" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1185" y="290" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-43" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" target="ZCbKlFLyMs-FRZJkyF-s-37">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-43" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="ZCbKlFLyMs-FRZJkyF-s-1" target="ZCbKlFLyMs-FRZJkyF-s-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1185" y="366" as="targetPoint"/>
             <mxPoint x="1253" y="370" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-45" value="通信" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1.228;exitY=0.868;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-44" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-41">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-45" value="通信" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1.228;exitY=0.868;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-41" target="ZCbKlFLyMs-FRZJkyF-s-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1355" y="330" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-47" value="客户端到kms之间的传输" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=0.055;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.986;exitY=0.878;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-28" target="ZCbKlFLyMs-FRZJkyF-s-37">
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-47" value="客户端到kms之间的传输" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=0.055;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.986;exitY=0.878;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-28" target="ZCbKlFLyMs-FRZJkyF-s-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="440" as="sourcePoint"/>
             <mxPoint x="778" y="440" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VrCLpzdIBCpZSpuxB5JK-0" value="&lt;div&gt;Test MediaProcess&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Subject: webrtc推拉流&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Given&amp;nbsp; 推拉流&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 没有任务id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 调用GetTaskID()会生成一个唯一的任务id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 会返回任务id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 有任务id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 参数检查应该通过 (任务id不匹配/已有流/sdp重复/未知ice(没有sdp的ice))&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 调用Process()后会完成推拉流处理&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Given: 事件通知&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 收到一个下层传过来的kms事件消息(ice和流状态)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 检查资源状态，会传递给客户端&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Test GetTaskID&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Subject: 获取唯一的任务id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 没有任务id&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 会生成一个唯一的任务id并返回&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Test Process&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Subject: 推拉流&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 推流 + 收到sdp offer&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 检查参数会通过 (operType/net/roomid/info)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 调用QueryKMS() 调用策略中心，会计算出最优中心，会保存结果&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 调用WEBRTC_MediaTrans()会在指定kms上申请资源(管道/媒体元素/监听/处理offer/开始搜集ice候选)，保存结果&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 会返回sdp answer&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 拉流 + 收到sdp offer&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 检查参数会通过 (operType/net/roomid/info)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 调用QueryRecvKMS() 查询策略中心，会计算最优拉流的最优路径，保存结果&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 如果发生了中继，调用RelayKMS(),会完成中继，失败会重试&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 调用WEBRTC_MediaTrans()会在指定kms上申请资源(媒体元素/连接/监听/处理offer/开始搜集ice候选)，保存结果&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 会返回sdp answer&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 收到ice&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 检查参数会通过(info/是否有流/)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 会在指定资源上处理(添加ice)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 收到结束会议/某一用户退出房间&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 会释放资源，保存结果&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Test RelayKMS&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Subject: 流中继&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;		&lt;/span&gt;When 收到中继请求&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 检查参数会通过(中继路径/源流信息/目的流信息)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 会完成多次调用WEBRTC_MediaTrans()以完成整个路径上的流传输，保存结果&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;			&lt;/span&gt;Then 会返回目的流信息&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+          <mxGeometry x="60" y="500" width="730" height="630" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
