@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-01T01:38:03.528Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="vNtKqtczefWChruGpKAY" version="12.1.9" type="github" pages="4">
+<mxfile modified="2019-11-01T02:05:51.719Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="s3j3skpBFO86HsDr9xca" version="12.1.9" type="github" pages="4">
   <diagram id="TqIuw27xwV6HfCfeeaMq" name="ÃÂ¤ÃÂ¼ÃÂ ÃÂ§ÃÂ»ÃÂÃÂ¦ÃÂµÃÂÃÂ¥ÃÂªÃÂÃÂ¤ÃÂ½ÃÂÃÂ¥ÃÂ°ÃÂ±ÃÂ¨ÃÂ¿ÃÂÃÂ¦ÃÂÃÂ¥ÃÂ¥ÃÂÃÂ¥ÃÂ¦ÃÂÃÂ¹ÃÂ¦ÃÂ¡ÃÂ">
     <mxGraphModel dx="-278" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1109,7 +1109,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lLLX0a3J1243LySMtJLo" name="refactoring">
-    <mxGraphModel dx="981" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZCbKlFLyMs-FRZJkyF-s-0"/>
         <mxCell id="ZCbKlFLyMs-FRZJkyF-s-1" parent="ZCbKlFLyMs-FRZJkyF-s-0"/>
@@ -1176,6 +1176,118 @@
         </mxCell>
         <mxCell id="ZCbKlFLyMs-FRZJkyF-s-14" value="kms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
           <mxGeometry x="200" y="440" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-17" value="INT_ MediaProcess" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+          <mxGeometry x="560" y="40" width="120" height="430" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-17">
+          <mxGeometry x="55" y="80" width="10" height="350" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-25" value="推拉流消息" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-24" parent="ZCbKlFLyMs-FRZJkyF-s-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="80" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-17">
+          <mxGeometry x="65" y="120" width="10" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-27" value="生成任务id" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-26" parent="ZCbKlFLyMs-FRZJkyF-s-17" source="ZCbKlFLyMs-FRZJkyF-s-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="100" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="95" y="100"/>
+              <mxPoint x="95" y="120"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-17">
+          <mxGeometry x="65" y="240" width="10" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-29" value="处理请求" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-28" parent="ZCbKlFLyMs-FRZJkyF-s-17" source="ZCbKlFLyMs-FRZJkyF-s-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="220" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="95" y="220"/>
+              <mxPoint x="95" y="240"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-21" value="策略" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+          <mxGeometry x="720" y="40" width="120" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-21">
+          <mxGeometry x="55" y="215" width="10" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-22" value="WEBRTC_MediaTrans" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+          <mxGeometry x="1040" y="40" width="120" height="400" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-22">
+          <mxGeometry x="55" y="270" width="10" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-23" value="中继" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+          <mxGeometry x="880" y="40" width="120" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-23">
+          <mxGeometry x="55" y="250" width="10" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-30" value="推拉流逻辑" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+          <mxGeometry x="1200" y="40" width="120" height="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-30">
+          <mxGeometry x="55" y="250" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-31" value="kms通信" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+          <mxGeometry x="1360" y="40" width="120" height="370" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZCbKlFLyMs-FRZJkyF-s-31">
+          <mxGeometry x="55" y="290" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-33" value="获取最优路径" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-32" parent="ZCbKlFLyMs-FRZJkyF-s-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="637" y="295" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-35" value="发送中继请求" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.055;exitY=0.277;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-34" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="370" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-36" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.055;exitY=0.704;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="ZCbKlFLyMs-FRZJkyF-s-34" parent="ZCbKlFLyMs-FRZJkyF-s-1" target="ZCbKlFLyMs-FRZJkyF-s-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-38" value="kms到kms之间的传输" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.014;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-37" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="290" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-39" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.221;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="ZCbKlFLyMs-FRZJkyF-s-37" parent="ZCbKlFLyMs-FRZJkyF-s-1" target="ZCbKlFLyMs-FRZJkyF-s-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="366" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-42" value="消息转换" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.067;exitY=0.331;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-41" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="290" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-43" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" target="ZCbKlFLyMs-FRZJkyF-s-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="366" as="targetPoint"/>
+            <mxPoint x="1253" y="370" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-45" value="通信" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=1.228;exitY=0.868;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="ZCbKlFLyMs-FRZJkyF-s-44" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1355" y="330" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZCbKlFLyMs-FRZJkyF-s-47" value="客户端到kms之间的传输" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;entryX=0.055;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.986;exitY=0.878;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ZCbKlFLyMs-FRZJkyF-s-1" source="ZCbKlFLyMs-FRZJkyF-s-28" target="ZCbKlFLyMs-FRZJkyF-s-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="440" as="sourcePoint"/>
+            <mxPoint x="778" y="440" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
