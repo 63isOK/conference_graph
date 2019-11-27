@@ -1,1 +1,37 @@
-<mxfile host="www.draw.io" modified="2019-11-27T08:53:24.193Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" version="12.3.1" etag="KEncZaGjOOjHYPX3qFBd" type="github"><diagram id="XXwI71VeTmdluzXIL0SY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-27T09:35:01.174Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="vs-CM82gBNznCuiNBEDW" version="12.3.1" type="github" pages="1">
+  <diagram id="XXwI71VeTmdluzXIL0SY" name="Page-1">
+    <mxGraphModel dx="702" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-1" value="SDPInfo" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="380" height="216" as="geometry"/>
+        </mxCell>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-2" value="- version: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uGZcD_PBiQhf3GV0Sc7d-1">
+          <mxGeometry y="26" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-9" value="- medias: []*MediaInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uGZcD_PBiQhf3GV0Sc7d-1">
+          <mxGeometry y="52" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-10" value="- streams: map[string]*StreamInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uGZcD_PBiQhf3GV0Sc7d-1">
+          <mxGeometry y="78" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-8" value="- candidates: []*CandidateInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uGZcD_PBiQhf3GV0Sc7d-1">
+          <mxGeometry y="104" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-7" value="- ice: *ICEInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uGZcD_PBiQhf3GV0Sc7d-1">
+          <mxGeometry y="130" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-6" value="- dtls: *DTLSInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uGZcD_PBiQhf3GV0Sc7d-1">
+          <mxGeometry y="156" width="380" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="uGZcD_PBiQhf3GV0Sc7d-1">
+          <mxGeometry y="182" width="380" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="uGZcD_PBiQhf3GV0Sc7d-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="uGZcD_PBiQhf3GV0Sc7d-1">
+          <mxGeometry y="190" width="380" height="26" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
