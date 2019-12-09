@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-09T06:25:34.728Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="NEQYpQ1yI-aNJ11Bbo2k" version="12.3.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-09T06:39:47.144Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="FiBr0x567smmFx9vq8xf" version="12.3.8" type="github" pages="1">
   <diagram id="XXwI71VeTmdluzXIL0SY" name="sdp-class">
-    <mxGraphModel dx="914" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="674" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -126,6 +126,48 @@
             <mxPoint x="680" y="450" as="sourcePoint"/>
             <mxPoint x="840" y="450" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-36" value="StreamInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="40" width="320" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-37" value="- id : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="26" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-41" value="- tracks : map[string]*TrackInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="52" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="78" width="320" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-39" value="+ NewStreamInfo(streamID : string) : *StreamInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="86" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-42" value="+ GetId() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="112" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-43" value="+ AddTrack(*TrackInfo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="138" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-47" value="+ GetTrack(trackID : string) *TrackInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="164" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-44" value="+ RemoveTrack(*TrackInfo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="190" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-45" value="+ GetTracks() : map[string]*TrackInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="216" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-46" value="+ RemoveAllTracks()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="242" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-48" value="+ GetFirstTrack(media : string) : *TrackInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="268" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-49" value="+ Clone() : *StreamInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry y="294" width="320" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-40" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uGZcD_PBiQhf3GV0Sc7d-1" target="eo11kv7BsoP-1btnggpK-36">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
