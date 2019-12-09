@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-09T07:05:56.780Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="wKYjiSfiqLawTwdBuile" version="12.3.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-09T07:11:27.795Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="KKWRvDvQrjdXGdAxuUAM" version="12.3.8" type="github" pages="1">
   <diagram id="XXwI71VeTmdluzXIL0SY" name="sdp-class">
     <mxGraphModel dx="914" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,6 +172,9 @@
         <mxCell id="eo11kv7BsoP-1btnggpK-40" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uGZcD_PBiQhf3GV0Sc7d-1" target="eo11kv7BsoP-1btnggpK-36">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-89" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eo11kv7BsoP-1btnggpK-50" target="eo11kv7BsoP-1btnggpK-84">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="eo11kv7BsoP-1btnggpK-50" value="TrackInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="1710" y="60" width="360" height="580" as="geometry"/>
         </mxCell>
@@ -240,6 +243,30 @@
         </mxCell>
         <mxCell id="eo11kv7BsoP-1btnggpK-83" value="+ Clone() : * TrackInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-50">
           <mxGeometry y="554" width="360" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-84" value="SourceGroupInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="80" width="340" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-85" value="- semantics : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-84">
+          <mxGeometry y="26" width="340" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-88" value="- ssrcs : []int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-84">
+          <mxGeometry y="52" width="340" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-86" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-84">
+          <mxGeometry y="78" width="340" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-87" value="+ NewSrouceGroupInfo(string, []int) : *SourceGroupInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-84">
+          <mxGeometry y="86" width="340" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-90" value="+ GetSemantics() : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-84">
+          <mxGeometry y="112" width="340" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-91" value="+ GetSSRCs() : []int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-84">
+          <mxGeometry y="138" width="340" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="eo11kv7BsoP-1btnggpK-92" value="+ Clone() : *SourceGroupInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="eo11kv7BsoP-1btnggpK-84">
+          <mxGeometry y="164" width="340" height="26" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
