@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-12T02:55:31.063Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Moi5WcwoYBkTwggplNYs" version="12.3.8" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-12T03:21:05.871Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="7HPEXT5wuRRyno8QV9f2" version="12.3.9" type="github" pages="2">
   <diagram id="XXwI71VeTmdluzXIL0SY" name="sdp-class">
-    <mxGraphModel dx="1828" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="702" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -818,35 +818,75 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gEWY27R5mdct-79GZkcM" name="sdptransform">
-    <mxGraphModel dx="1071" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="522" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CNXP57rRNc0ed0SsrJur-0"/>
         <mxCell id="CNXP57rRNc0ed0SsrJur-1" parent="CNXP57rRNc0ed0SsrJur-0"/>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-0" target="XBqLI0qe2yVA02vp6nEc-16">
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-0" target="XBqLI0qe2yVA02vp6nEc-16" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-0" value="Parse Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-0" value="Parse Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="CNXP57rRNc0ed0SsrJur-1" vertex="1">
           <mxGeometry x="120" y="40" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-1" value="Parse End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-1" value="Parse End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="CNXP57rRNc0ed0SsrJur-1" vertex="1">
           <mxGeometry x="120" y="360" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-16" target="XBqLI0qe2yVA02vp6nEc-9">
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-16" target="XBqLI0qe2yVA02vp6nEc-9" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-16" value="将sdp文本解析为中间格式" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+        <object label="" id="c_et0bk1HZrGTnJmOAUZ-1">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;fontFamily=Helvetica;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-16" target="c_et0bk1HZrGTnJmOAUZ-0">
+            <mxGeometry relative="1" as="geometry"/>
+          </mxCell>
+        </object>
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-16" value="将sdp文本解析为中间格式" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="CNXP57rRNc0ed0SsrJur-1" vertex="1">
           <mxGeometry x="120" y="120" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-9" target="XBqLI0qe2yVA02vp6nEc-11">
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontFamily=Helvetica;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="c_et0bk1HZrGTnJmOAUZ-0" target="c_et0bk1HZrGTnJmOAUZ-6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-9" value="从中间格式生成json字符串" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-0" value="具体流程" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+          <mxGeometry x="400" y="120" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontFamily=Helvetica;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="c_et0bk1HZrGTnJmOAUZ-6" target="c_et0bk1HZrGTnJmOAUZ-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-6" value="循环读取单行数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+          <mxGeometry x="400" y="200" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontFamily=Helvetica;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="c_et0bk1HZrGTnJmOAUZ-8" target="c_et0bk1HZrGTnJmOAUZ-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-8" value="去掉行尾控制字符&lt;br&gt;正则检查数据有效性" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+          <mxGeometry x="400" y="280" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontFamily=Helvetica;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="c_et0bk1HZrGTnJmOAUZ-10" target="c_et0bk1HZrGTnJmOAUZ-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-10" value="分离出类型和数据&lt;br&gt;根据类型找出数据的匹配规则" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+          <mxGeometry x="400" y="360" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;fontFamily=Helvetica;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="c_et0bk1HZrGTnJmOAUZ-12" target="XBqLI0qe2yVA02vp6nEc-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="460"/>
+              <mxPoint x="350" y="220"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_et0bk1HZrGTnJmOAUZ-12" value="根据匹配规则，提取有效数据&lt;br&gt;将数据存储在gabs的ds中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+          <mxGeometry x="400" y="440" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-9" target="XBqLI0qe2yVA02vp6nEc-11" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-9" value="从中间格式生成json字符串" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="CNXP57rRNc0ed0SsrJur-1" vertex="1">
           <mxGeometry x="120" y="200" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-11" target="XBqLI0qe2yVA02vp6nEc-1">
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CNXP57rRNc0ed0SsrJur-1" source="XBqLI0qe2yVA02vp6nEc-11" target="XBqLI0qe2yVA02vp6nEc-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="XBqLI0qe2yVA02vp6nEc-11" value="将json字符串反序列化到Go数据结构" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="CNXP57rRNc0ed0SsrJur-1">
+        <mxCell id="XBqLI0qe2yVA02vp6nEc-11" value="将json字符串反序列化到Go数据结构" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="CNXP57rRNc0ed0SsrJur-1" vertex="1">
           <mxGeometry x="120" y="280" width="160" height="40" as="geometry"/>
         </mxCell>
       </root>
