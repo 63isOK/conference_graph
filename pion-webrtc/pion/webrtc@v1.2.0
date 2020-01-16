@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T01:44:07.274Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="6EPV_aYh_qqGBD_lV1Oa" version="12.5.4" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-01-16T02:19:33.604Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="F80NJY69lRYHJEbLrQ9E" version="12.5.4" type="github" pages="5">
   <diagram id="u5qF8u8Ny5z4yu68Q24D" name="pion/webrtc@v1.2.0 sdp">
     <mxGraphModel dx="3597" dy="2436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -784,16 +784,19 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="glyKMq7E6vCEBsoOISMG-10" value="MediaEngine" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="glyKMq7E6vCEBsoOISMG-1">
-          <mxGeometry x="60" y="80" width="160" height="86" as="geometry"/>
+          <mxGeometry x="40" y="80" width="240" height="112" as="geometry"/>
         </mxCell>
         <mxCell id="glyKMq7E6vCEBsoOISMG-11" value="- codecs : []*RTCRtpCodec" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="glyKMq7E6vCEBsoOISMG-10">
-          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+          <mxGeometry y="26" width="240" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="glyKMq7E6vCEBsoOISMG-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="glyKMq7E6vCEBsoOISMG-10">
-          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+          <mxGeometry y="52" width="240" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="glyKMq7E6vCEBsoOISMG-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="glyKMq7E6vCEBsoOISMG-10">
-          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        <mxCell id="glyKMq7E6vCEBsoOISMG-13" value="+ NewMediaEngine(): *MediaEngine" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="glyKMq7E6vCEBsoOISMG-10">
+          <mxGeometry y="60" width="240" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="glyKMq7E6vCEBsoOISMG-52" value="+ RegisterCodec(*RTCRtpCodec): uint8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="glyKMq7E6vCEBsoOISMG-10">
+          <mxGeometry y="86" width="240" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="glyKMq7E6vCEBsoOISMG-51" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="glyKMq7E6vCEBsoOISMG-1" source="glyKMq7E6vCEBsoOISMG-14" target="glyKMq7E6vCEBsoOISMG-39">
           <mxGeometry relative="1" as="geometry"/>
