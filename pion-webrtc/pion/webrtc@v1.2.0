@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-19T07:19:10.173Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="n8cRSaojIaP51IdjJ-Pb" version="12.5.5" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-01-19T08:16:14.909Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="nqnicg-lbj4Vn41n8-hB" version="12.5.5" type="github" pages="6">
   <diagram id="u5qF8u8Ny5z4yu68Q24D" name="pion/webrtc@v1.2.0 sdp">
     <mxGraphModel dx="2701" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -875,9 +875,6 @@
         <mxCell id="T-pQLBVyX0yww9zoa_0O-17" value="RTCConfiguration" style="ellipse;whiteSpace=wrap;html=1;align=center;container=1;recursiveResize=0;treeFolding=1;treeMoving=1;" vertex="1" parent="T-pQLBVyX0yww9zoa_0O-1">
           <mxGeometry x="240" y="130" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="T-pQLBVyX0yww9zoa_0O-19" value="Branch" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;" vertex="1" parent="T-pQLBVyX0yww9zoa_0O-1">
-          <mxGeometry x="200" y="260" width="80" height="20" as="geometry"/>
-        </mxCell>
         <mxCell id="T-pQLBVyX0yww9zoa_0O-39" value="validate 校验ice服务信息" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;" vertex="1" parent="T-pQLBVyX0yww9zoa_0O-1">
           <mxGeometry x="656.57" y="220" width="170" height="20" as="geometry"/>
         </mxCell>
@@ -898,11 +895,6 @@
         </mxCell>
         <mxCell id="T-pQLBVyX0yww9zoa_0O-54" value="GetFingerprints 生成指纹" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;" vertex="1" parent="T-pQLBVyX0yww9zoa_0O-1">
           <mxGeometry x="626" y="382.5" width="170" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="T-pQLBVyX0yww9zoa_0O-20" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" target="T-pQLBVyX0yww9zoa_0O-19" parent="T-pQLBVyX0yww9zoa_0O-1" source="T-pQLBVyX0yww9zoa_0O-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="210" as="sourcePoint"/>
-          </mxGeometry>
         </mxCell>
         <mxCell id="T-pQLBVyX0yww9zoa_0O-38" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" target="T-pQLBVyX0yww9zoa_0O-39" parent="T-pQLBVyX0yww9zoa_0O-1" source="T-pQLBVyX0yww9zoa_0O-21">
           <mxGeometry relative="1" as="geometry">
