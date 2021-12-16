@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T05:56:49.088Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="2fWXpKTS7g0QP6MEETUg" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T07:55:09.030Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="EvXCu7CnRV6EKrtWhP6I" version="15.9.6" type="github">
   <diagram id="hAEX_xZfxIwHazybUXum" name="Page-1">
-    <mxGraphModel dx="1422" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,9 @@
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="k9HZjOQAV6t7Ozw14jkY-1" target="k9HZjOQAV6t7Ozw14jkY-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="330" y="190" />
+              <mxPoint x="360" y="220" />
+              <mxPoint x="330" y="190" />
               <mxPoint x="414" y="190" />
             </Array>
           </mxGeometry>
@@ -34,6 +37,7 @@
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-14" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="k9HZjOQAV6t7Ozw14jkY-2" target="k9HZjOQAV6t7Ozw14jkY-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="510" y="270" />
               <mxPoint x="630" y="220" />
               <mxPoint x="730" y="250" />
             </Array>
@@ -62,17 +66,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="k9HZjOQAV6t7Ozw14jkY-40" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="k9HZjOQAV6t7Ozw14jkY-2" target="k9HZjOQAV6t7Ozw14jkY-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-2" value="执行器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-4" value="对象&lt;br&gt;设备/分组/型号/品类/全部设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-5" value="条件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="354" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-7" value="动作&lt;br&gt;动作类型/动作id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-8" value="云云对接实例表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="750" y="280" width="120" height="60" as="geometry" />
@@ -148,6 +159,9 @@
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-32" value="通知表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1070" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k9HZjOQAV6t7Ozw14jkY-39" value="物模型能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
