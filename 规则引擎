@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T02:52:50.929Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="cmvBi-UC5Wxvev475CGS" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T03:08:06.393Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="yT0EkeL6K2yjlHUq7pX8" version="15.9.6" type="github">
   <diagram id="hAEX_xZfxIwHazybUXum" name="Page-1">
     <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry x="160" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-2" value="执行器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-3" value="web添加规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-4" value="对象&lt;br&gt;设备/分组/型号/品类/全部设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="280" width="120" height="60" as="geometry" />
@@ -19,23 +19,23 @@
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-5" value="条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k9HZjOQAV6t7Ozw14jkY-6" value="条件库&lt;br&gt;按物模型生成固定的条件模版&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="440" width="120" height="60" as="geometry" />
+        <mxCell id="k9HZjOQAV6t7Ozw14jkY-6" value="条件库&lt;br&gt;不使用固定条件库&lt;br&gt;前端直接生成&quot;条件语句&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-7" value="动作&lt;br&gt;动作类型/动作id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-8" value="云云对接实例表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-9" value="告警表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-10" value="规则grl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k9HZjOQAV6t7Ozw14jkY-11" value="grule_engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="820" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
