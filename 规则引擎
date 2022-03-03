@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-03T07:16:56.422Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gg0FqvCZnyEPwYMHSz0J" version="16.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-03T07:17:11.337Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="695AZ57cvne-U0Pyjoh8" version="16.6.4" type="github" pages="4">
   <diagram id="hAEX_xZfxIwHazybUXum" name="第一个版本,弃用">
     <mxGraphModel dx="1422" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -619,9 +619,6 @@
             <mxPoint x="647" y="166" as="sourcePoint" />
             <mxPoint x="572" y="166" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vZe8Ug8opQby40M1twEj-1" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j9wHTkat09YekCUc9zt6-1">
-          <mxGeometry x="383" y="383" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vZe8Ug8opQby40M1twEj-2" value="和第三方云对接的数据通道" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j9wHTkat09YekCUc9zt6-1">
           <mxGeometry x="658" y="152" width="160" height="30" as="geometry" />
