@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T05:29:57.758Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Ov7WJrXBVfSY71ukFaCn" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T05:32:31.002Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nFzwnNL3qQGZB9rOxBOj" version="20.8.16" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1276" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZOoQiJ9sVfXqPV81p9z5-20" value="2.3 同步授权信息给设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZOoQiJ9sVfXqPV81p9z5-11" vertex="1" connectable="0">
+        <mxCell id="ZOoQiJ9sVfXqPV81p9z5-20" value="2.3 同步信息给设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZOoQiJ9sVfXqPV81p9z5-11" vertex="1" connectable="0">
           <mxGeometry x="-0.1474" y="-3" relative="1" as="geometry">
             <mxPoint x="73" y="-9" as="offset" />
           </mxGeometry>
