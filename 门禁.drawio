@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T05:32:31.002Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nFzwnNL3qQGZB9rOxBOj" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T12:06:27.168Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ffIeWOTyTK2QUBTnRTBE" version="20.8.16" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1276" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1057" dy="445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,6 +184,159 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZOoQiJ9sVfXqPV81p9z5-37" value="4.5 开门" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZOoQiJ9sVfXqPV81p9z5-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.0864" y="-2" relative="1" as="geometry">
+            <mxPoint x="34" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_Lu4hbXxt-jgxLro3SVs" name="第 2 页">
+    <mxGraphModel dx="1057" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#DAE8FC;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-3" target="emLzpTRTSdPsqBcAvWA7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-2" value="1 将设备录入到系统" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B0BCCC;" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-1">
+          <mxGeometry x="-0.6836" y="-1" relative="1" as="geometry">
+            <mxPoint x="61" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-3" value="左邻实施人员" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-10" target="emLzpTRTSdPsqBcAvWA7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="190" />
+              <mxPoint x="520" y="190" />
+              <mxPoint x="520" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-7" value="2.2 更新用户设备关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-6">
+          <mxGeometry x="-0.3942" y="-4" relative="1" as="geometry">
+            <mxPoint x="85" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#39FF12;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-10" target="emLzpTRTSdPsqBcAvWA7-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="270" />
+              <mxPoint x="360" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-9" value="4.7 上报开门记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-8">
+          <mxGeometry x="0.0752" y="-2" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-10" value="通通中间件" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#39FF12;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-15" target="emLzpTRTSdPsqBcAvWA7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-12" value="3.1 获取二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-11">
+          <mxGeometry x="-0.1612" y="-1" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#39FF12;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-15" target="emLzpTRTSdPsqBcAvWA7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-14" value="4.4 刷二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-13">
+          <mxGeometry x="-0.1138" y="-1" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-15" value="用户" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#39FF12;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-18" target="emLzpTRTSdPsqBcAvWA7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="320" />
+              <mxPoint x="470" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-17" value="4.6 上报开门记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-16">
+          <mxGeometry x="-0.0049" y="-3" relative="1" as="geometry">
+            <mxPoint x="-53" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-18" value="门禁设备" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#FF3333;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-25" target="emLzpTRTSdPsqBcAvWA7-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="210" />
+              <mxPoint x="360" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-20" value="2.1 增删用户设备关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-19">
+          <mxGeometry x="0.1966" y="-1" relative="1" as="geometry">
+            <mxPoint x="-26" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#39FF12;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-25" target="emLzpTRTSdPsqBcAvWA7-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="240" />
+              <mxPoint x="370" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-24" value="3.2 获取二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-23">
+          <mxGeometry x="-0.0826" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-25" value="左邻门禁平台" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="160" as="sourcePoint" />
+            <mxPoint x="640" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-27" value="实施阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-28" value="运行阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0.998;exitY=0.615;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#39FF12;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-10" target="emLzpTRTSdPsqBcAvWA7-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="249" />
+              <mxPoint x="530" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-32" value="4.3 根据用户和设备关系,生成二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-31">
+          <mxGeometry x="0.2212" y="-1" relative="1" as="geometry">
+            <mxPoint x="112" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#39FF12;" edge="1" parent="1" source="emLzpTRTSdPsqBcAvWA7-18" target="emLzpTRTSdPsqBcAvWA7-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="460" />
+              <mxPoint x="480" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="emLzpTRTSdPsqBcAvWA7-34" value="4.5 开门" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="emLzpTRTSdPsqBcAvWA7-33">
           <mxGeometry x="-0.0864" y="-2" relative="1" as="geometry">
             <mxPoint x="34" y="-8" as="offset" />
           </mxGeometry>
