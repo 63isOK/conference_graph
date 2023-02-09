@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T12:09:00.056Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ZwvAUGDMNgbZoj0oQAo0" version="20.8.16" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-09T08:18:50.383Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="0QrsDxKO1T8spdzUoEZw" version="20.8.16" type="github" pages="3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1057" dy="445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -359,7 +359,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gzCtqJxURKL-52K1gWFr-5" value="1.2 更新用户设备关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzCtqJxURKL-52K1gWFr-4">
+        <mxCell id="gzCtqJxURKL-52K1gWFr-5" value="1.2 持久化授权信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzCtqJxURKL-52K1gWFr-4">
           <mxGeometry x="-0.3942" y="-4" relative="1" as="geometry">
             <mxPoint x="85" y="6" as="offset" />
           </mxGeometry>
@@ -424,7 +424,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gzCtqJxURKL-52K1gWFr-18" value="1.1 增删用户设备关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzCtqJxURKL-52K1gWFr-17">
+        <mxCell id="gzCtqJxURKL-52K1gWFr-18" value="1.1 用户授权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzCtqJxURKL-52K1gWFr-17">
           <mxGeometry x="0.1966" y="-1" relative="1" as="geometry">
             <mxPoint x="-26" y="-11" as="offset" />
           </mxGeometry>
@@ -453,7 +453,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gzCtqJxURKL-52K1gWFr-26" value="2.3 根据用户和设备关系,生成二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzCtqJxURKL-52K1gWFr-25">
+        <mxCell id="gzCtqJxURKL-52K1gWFr-26" value="2.3 根据授权信息,生成二维码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gzCtqJxURKL-52K1gWFr-25">
           <mxGeometry x="0.2212" y="-1" relative="1" as="geometry">
             <mxPoint x="61" y="20" as="offset" />
           </mxGeometry>
