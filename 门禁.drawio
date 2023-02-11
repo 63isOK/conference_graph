@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T11:48:59.604Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Le3jupRq-HtCrczGLDq2" version="20.8.16" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-11T09:15:07.432Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="SmUQ5yjx_SG0vqYaF3ng" version="20.8.20" type="github" pages="4">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1850" dy="778" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -475,97 +475,106 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tWBEYNyaMYQRlK0a4WrW" name="第 4 页">
-    <mxGraphModel dx="2369" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2369" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-1" value="web服务器" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-1" value="web服务器" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="80" y="260" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-2" value="openapi&lt;br&gt;用户授权&lt;br&gt;提供二维码的获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-2" value="openapi&lt;br&gt;用户授权&lt;br&gt;提供二维码的获取" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-3" value="上报&lt;br&gt;开门记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-3" value="上报&lt;br&gt;开门记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="oPnpVIKVamiJ0g4SivWz-4" target="oPnpVIKVamiJ0g4SivWz-3">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="oPnpVIKVamiJ0g4SivWz-4" target="oPnpVIKVamiJ0g4SivWz-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-4" value="二维码" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-4" value="二维码" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="80" y="400" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="oPnpVIKVamiJ0g4SivWz-5" target="oPnpVIKVamiJ0g4SivWz-7">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="oPnpVIKVamiJ0g4SivWz-5" target="oPnpVIKVamiJ0g4SivWz-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-11" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oPnpVIKVamiJ0g4SivWz-9">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-11" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oPnpVIKVamiJ0g4SivWz-9" vertex="1" connectable="0">
           <mxGeometry x="-0.08" relative="1" as="geometry">
             <mxPoint x="-6" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-5" value="德龙" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-5" value="德龙" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="oPnpVIKVamiJ0g4SivWz-6" target="oPnpVIKVamiJ0g4SivWz-8">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="oPnpVIKVamiJ0g4SivWz-6" target="oPnpVIKVamiJ0g4SivWz-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-12" value="http/mqtt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oPnpVIKVamiJ0g4SivWz-10">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-12" value="http/mqtt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oPnpVIKVamiJ0g4SivWz-10" vertex="1" connectable="0">
           <mxGeometry x="-0.2867" relative="1" as="geometry">
             <mxPoint x="4" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-6" value="锐颖" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-6" value="锐颖" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-7" value="按设备生成二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-7" value="按设备生成二维码" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-8" value="生成平台二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-8" value="生成平台二维码" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-22" value="人脸识别" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-22" value="人脸识别" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="80" y="680" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="oPnpVIKVamiJ0g4SivWz-28" target="oPnpVIKVamiJ0g4SivWz-30">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="oPnpVIKVamiJ0g4SivWz-28" target="oPnpVIKVamiJ0g4SivWz-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-28" value="d2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-28" value="d2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-30" value="按平台对接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-30" value="按平台对接" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-48" value="蓝牙" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-48" value="蓝牙" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="80" y="1080" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="oPnpVIKVamiJ0g4SivWz-50" target="oPnpVIKVamiJ0g4SivWz-53">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="oPnpVIKVamiJ0g4SivWz-50" target="oPnpVIKVamiJ0g4SivWz-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-50" value="d1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-50" value="d1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="oPnpVIKVamiJ0g4SivWz-52" target="oPnpVIKVamiJ0g4SivWz-54">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="oPnpVIKVamiJ0g4SivWz-52" target="oPnpVIKVamiJ0g4SivWz-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-52" value="d2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-52" value="d2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-53" value="按设备生成密钥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-53" value="按设备生成密钥" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-54" value="生成平台密钥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-54" value="生成平台密钥" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-57" value="门禁卡" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-57" value="门禁卡" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="80" y="880" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="oPnpVIKVamiJ0g4SivWz-59" target="oPnpVIKVamiJ0g4SivWz-60">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="oPnpVIKVamiJ0g4SivWz-59" target="oPnpVIKVamiJ0g4SivWz-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-59" value="d2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-59" value="d2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-120" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oPnpVIKVamiJ0g4SivWz-60" value="按平台对接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPnpVIKVamiJ0g4SivWz-60" value="按平台对接" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HylAMcwKWrzRSbtZ-Fvs-1" value="实体:用户信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HylAMcwKWrzRSbtZ-Fvs-2" value="实体: 开门记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HylAMcwKWrzRSbtZ-Fvs-3" value="实体: 推送开门记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
