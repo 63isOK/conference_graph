@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T08:44:59.583Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="02n_Mo7B9f4ulZ8li03s" version="20.8.20" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-20T08:48:29.548Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qs7FoiJFPsyBy69KkRpD" version="20.8.20" type="github" pages="7">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1057" dy="445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -798,6 +798,56 @@
         </mxCell>
         <mxCell id="bZpwenRSAaVC8GxKB-u_-5" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="170" y="480" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-11" value="中间件" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="310" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bZpwenRSAaVC8GxKB-u_-16" target="bZpwenRSAaVC8GxKB-u_-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="270" />
+              <mxPoint x="600" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-13" value="1. 上报开门记录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bZpwenRSAaVC8GxKB-u_-12">
+          <mxGeometry x="-0.7393" y="1" relative="1" as="geometry">
+            <mxPoint x="-61" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bZpwenRSAaVC8GxKB-u_-16" target="bZpwenRSAaVC8GxKB-u_-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="270" />
+              <mxPoint x="720" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-15" value="2. 下载卡号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bZpwenRSAaVC8GxKB-u_-14">
+          <mxGeometry x="0.3252" y="2" relative="1" as="geometry">
+            <mxPoint x="48" y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-16" value="设备" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bZpwenRSAaVC8GxKB-u_-17" target="bZpwenRSAaVC8GxKB-u_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-17" value="1. 卡号,时间&lt;br&gt;2. 用户,时间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bZpwenRSAaVC8GxKB-u_-18" target="bZpwenRSAaVC8GxKB-u_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-18" value="德龙二维码&lt;br&gt;赛伯罗斯二维码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="670" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-19" value="左邻" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-21" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
