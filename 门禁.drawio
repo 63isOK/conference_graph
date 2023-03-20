@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T08:48:29.548Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="qs7FoiJFPsyBy69KkRpD" version="20.8.20" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-20T08:55:41.368Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="BV-Nmao4fFt3Rni03Z5o" version="20.8.20" type="github" pages="7">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1057" dy="445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -848,6 +848,39 @@
         </mxCell>
         <mxCell id="bZpwenRSAaVC8GxKB-u_-21" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="690" y="480" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-23" value="卡号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-24" value="设备序列号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-25" value="有效期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-26" value="是否绑定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="480" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-27" value="是否下载" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#FAD9D5;" edge="1" parent="1" source="bZpwenRSAaVC8GxKB-u_-30" target="bZpwenRSAaVC8GxKB-u_-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="640" as="sourcePoint" />
+            <mxPoint x="560" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-30" value="用户信息变更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;strokeWidth=2;curved=1;" edge="1" parent="1" source="bZpwenRSAaVC8GxKB-u_-31" target="bZpwenRSAaVC8GxKB-u_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZpwenRSAaVC8GxKB-u_-31" value="卡号下载成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
